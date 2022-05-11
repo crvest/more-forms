@@ -6,12 +6,6 @@ const UserForm = (props) => {
     const [ email, setEmail ] = useState('');
     const [ password, setPassword ] = useState('');
     const [ confirmPassword, setconfirmPassword ] = useState('');
-    const [ valFirstName, setValFirstName ] = useState('false');
-    const [ valLastName, setValLastName ] = useState('false');
-    const [ valEmail, setValEmail ] = useState('false');
-    const [ valPassword, setValPassword ] = useState('false');
-    const [ valConfirmPassword, setValConfirmPassword ] = useState('false');
-
 
     return (
         <div>
